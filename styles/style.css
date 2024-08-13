@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap'); 
+
+:root {
+    --color-primaria: #8902c7;
+    --color-secundaria: #F6F6F6;
+    --color-terciaria: #ff00cc;
+    --color-hover: #272727;
+    --fuente-krona: 'Krona One', sans-serif;
+    --fuente-montserrat: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 0%;
+    box-sizing: border-box;
+    border-color: 5px red;
+    color: var(--color-secundaria);
+}
+
+.Header {
+    padding: 2% 0% 0% 20%;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.HeaderMenu {
+    margin-bottom: 0px;
+    display: flex;
+    gap: 80px;
+}
+
+.HeaderMenuLink {
+    font-family: var(--fuente-montserrat);
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-terciaria);
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.PresentacionImagenFondo {
+
+    margin-top: 0px;
+}
+
+.Presentacion {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.PresentacionContenido {
+    padding: 10%, 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.PresentacionContenidoTitulo {
+    margin-top: -850px;
+    font-size: 2rem;
+    font-family: var(--fuente-krona);
+    padding: 30px, 100px;
+}
+
+.TituloDestaque {
+    color: var(--color-terciaria);
+}
+
+.PresentacionContenidoTexto {
+    width: 50%;
+    font-size: 1.5rem;
+    font-family: var(--fuente-montserrat);
+    color: #ffffff;
+    text-align: justify;
+    height: 70%;
+    border: 2px solid rgb(165, 165, 165); 
+}
+
+.PresentacionContenido {
+    padding: 10%, 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.PresentacionContenidoTitulo2 {
+    margin-top: -850px;
+    font-size: 2rem;
+    font-family: var(--fuente-krona);
+    padding: 30px, 100px;
+}
+
+.PresentacionContenidoTexto2 b {
+    color: #ff00cc;
+    font-weight: bold;
+}
+
+.PresentacionContenidoTexto2 {
+    width: 50%;
+    font-size: 1.5rem;
+    font-family: var(--fuente-montserrat);
+    color: #ffffff;
+    text-align: justify;
+    height: 70%;
+    border: 2px solid rgb(165, 165, 165);
+}
+
+.PresentacionContenidoTexto b {
+    color: #ff00cc;
+    font-weight: bold;
+}
+
+.PresentacionContenidoTextoPD {
+    font-family: var(--fuente-montserrat);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1.4;
+    text-align: justify;
+    width: 50%;
+}
+
+.PresentacionEnlaces {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.PresentacionEnlacesSubtitulo {
+    font-family: var(--fuente-krona);
+    font-weight: 400;
+    font-size: 2rem;
+    color: #ff00cc;
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 520px;
+    margin-left: -0px;
+    text-align: left; 
+}
+
+/*GITHUB*/
+.PresentacionEnlacesLink1 {
+    display: flex;
+
+    justify-content: center;
+    gap: 1px;
+    border: 2px solid var(--color-terciaria);
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: var(--color-secundaria);
+    font-family: var(--fuente-montserrat);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: -710PX;
+        background-color: rgb(246, 126, 236);
+
+}
+/*LINKEIN*/
+.PresentacionEnlacesLink2 {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--color-terciaria);
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: var(--color-secundaria);
+    font-family: var(--fuente-montserrat);
+    margin-top: -83px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 60px;
+    background-color: rgb(246, 126, 236);
+
+}
+/*TWICH*/
+.PresentacionEnlacesLink3 {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--color-terciaria);
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: var(--color-secundaria);
+    font-family: var(--fuente-montserrat);
+    margin-top: -83px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 825PX;
+    background-color: rgb(246, 126, 236);
+
+}
+
+.PresentacionEnlacesLink:hover {
+    background-color: var(--color-hover);
+}
+
+.PresentacionImagen {
+    margin-bottom: 0px;
+    margin-top: -1050px;
+    margin-left: -450px;
+    width:500px;
+    display: block;
+
+}
+
+.PresentacionImagenFondo {
+    margin-top:;
+    margin-bottom:;
+    width: 100%;
+}
+
+.Footer {
+    margin-top: -160px; 
+    padding: 5px; 
+    text-align: center;
+    font-family: var(--fuente-krona);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--color-terciaria);
+
+}
+
+@media (max-width: 1200px) {
+}
+
+.Header {
+        padding: 10px,0px;  
+    }
